@@ -1,0 +1,8 @@
+1. 
+(a) I don't think they use stemming, or at least something as simple as a porter stemmer.  I tested two queries, "running to the store" and "run to the store".  They both returned different results, meaning it didn't stem 'running'.
+(b) I think that Google doesn't ignore stop words.  I tested "run to the store" and "run store" expecting it to filter 'to' and 'the', but it returned unique results for each query.
+(c) Yes it does use a spell checker, I tried the two queries "Donald Trump" and "Donlad Trmup", but they both returned the same result.
+
+2.
+(a) 14/30 Precision
+(b) 14/80 Recall
