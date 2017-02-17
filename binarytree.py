@@ -175,7 +175,7 @@ In this example, 1 is the left child of 3 and 4 is the right child of 3. 2 is th
 
         l.append([self])
 
-        for i in xrange(self.depth() - 1):
+        for i in range(self.depth() - 1):
             l.append(self.listlayer(self, i))
 
         return l
